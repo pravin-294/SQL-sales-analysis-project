@@ -3,7 +3,8 @@
 ## 📌 Project Overview
 This project is an **end-to-end SQL sales data analysis project** that demonstrates how raw retail sales data can be cleaned, transformed, and analyzed to generate meaningful business insights.
 
-The project simulates a **real-world retail analytics workflow**, starting from an unclean dataset and ending with business-driven analytical queries using **MySQL**.
+The project simulates a **real-world retail analytics workflow**, starting from an unclean dataset and ending with business-driven analytical queries using **MySQL**.  
+Additionally, a Python notebook is included to demonstrate awareness of **Python–MySQL integration** for data access and analysis.
 
 ---
 
@@ -13,6 +14,7 @@ The project simulates a **real-world retail analytics workflow**, starting from 
 - Prepare an analysis-ready dataset  
 - Answer important business questions using SQL  
 - Demonstrate strong SQL fundamentals and analytical thinking  
+- Showcase basic Python–MySQL connectivity using SQLAlchemy  
 
 ---
 
@@ -71,14 +73,30 @@ The analysis helps businesses to:
 
 ---
 
-## 🛠️ SQL Skills Demonstrated
-- Data Cleaning and Transformation  
+## 🛠️ Skills Demonstrated
+- SQL Data Cleaning and Transformation  
 - CASE WHEN and Conditional Aggregation  
 - Common Table Expressions (CTEs)  
 - Window Functions (ROW_NUMBER)  
 - Date and Time Functions  
 - GROUP BY, ORDER BY, and ROLLUP  
 - Business-focused SQL querying  
+- Basic Python–MySQL integration using SQLAlchemy  
+
+---
+
+## 📓 Python Notebook (Additional Work)
+A Jupyter Notebook is included to demonstrate **awareness of Python-based data access**:
+
+**`notebooks/python_mysql_connection_and_analysis.ipynb`**
+
+This notebook shows:
+- Connecting Python to MySQL using **SQLAlchemy**
+- Fetching sales data from the database
+- Performing basic analysis using **Pandas**
+
+> Note: SQL remains the primary analysis tool in this project.  
+> The notebook is included to demonstrate Python–SQL integration awareness.
 
 ---
 
@@ -100,7 +118,7 @@ Detailed project documentation is available here:
 ## 👤 Author
 **Pravin Kamble**  
 Aspiring Data Analyst  
-Skills: SQL | Data Cleaning | Data Analysis | Business Analytics  
+Skills: SQL | Python | MySQL | Data Cleaning | Data Analysis | Business Analytics  
 
 ---
 
@@ -110,5 +128,5 @@ This project demonstrates:
 - End-to-end SQL analytics workflow  
 - Strong problem-solving and analytical thinking  
 - Ability to convert raw data into business insights  
-
+- Awareness of Python–SQL integration used in analytics pipelines  
 
